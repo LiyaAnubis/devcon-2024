@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e046f786-843e-481b-9c15-1bde26974b83" extendedConfigurationObject="a7a8b78e-bb69-4429-af93-f3a9d5dd3cbc">
+  <producedTypes>
+    <objectType typeId="2e8d6e64-3fb3-4749-bdba-2f47b114c635" valueTypeId="152e14ed-ca9f-488a-916e-c68620dc857a"/>
+    <refType typeId="293e17a7-3fbe-4061-b690-40b6a1e47ce4" valueTypeId="f82df56b-ce89-4fd3-a683-ac4391f9a4db"/>
+    <selectionType typeId="b75a8fd7-961d-4c54-ba1a-c0dec84b7cf9" valueTypeId="33e309c9-0b76-4696-b501-396d1ae1515c"/>
+    <listType typeId="7a5eccee-f453-4279-af74-480f3a344c76" valueTypeId="523d3d41-7ee2-4133-b14e-0242094e3ab7"/>
+    <managerType typeId="15f3abd2-0dcd-4216-ab00-83ca35d63351" valueTypeId="7d4d60b2-dbce-427d-a7ac-ca069f19a08d"/>
+  </producedTypes>
+  <name>РекламныеБлокиПечатныхФорм</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ab2b02af-ed4a-41d9-a5f0-694ec7ff3d82" extendedConfigurationObject="191e0531-4251-47ac-833b-df1202bb63e5">
+  <producedTypes>
+    <refType typeId="401ad09f-f2c1-44d1-b85c-7cf0d94abc20" valueTypeId="04c15947-3a92-47ca-9f7a-de8d87f62fb1"/>
+    <listType typeId="f1285da2-0e59-4ec6-a38e-e21348f50a8e" valueTypeId="5e7b7358-0bff-43ad-9b7c-f8830d65d4ab"/>
+    <managerType typeId="2def7b76-c5a1-4ba5-8131-60010744800f" valueTypeId="fa027b7c-d534-4ab7-8b1b-7ce95c69399c"/>
+  </producedTypes>
+  <name>ДоступныеПечатныеФормыВыставлениеСчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="d3f08bbd-a897-40f6-b699-35637d758e9a" extendedConfigurationObject="9ea1226c-ff98-41cb-95f3-ebc43ed2f6ec">
+    <name>Акт</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="1482b6e2-31ee-430c-9852-91fd8e07c7fb" extendedConfigurationObject="f8f1a5f7-4bd1-4303-ba77-37d3b4fddc4f">
+    <name>Накладная</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

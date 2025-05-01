@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2805b975-17f7-4e35-8ab0-5f7afb71efe6" extendedConfigurationObject="11c00d46-67b0-46a8-86f8-d1561c7f5d7a">
+  <producedTypes>
+    <objectType typeId="3bdcc0d7-d020-4901-bbe1-95b84af70d71" valueTypeId="a0d72315-898b-4f89-960b-038e6ad7c925"/>
+    <refType typeId="1966a84a-9c59-4489-a081-159301fad79c" valueTypeId="23e307fc-6e57-47f5-8723-f8726d1f741a"/>
+    <selectionType typeId="5095066d-185b-4a3d-8663-d7de1c435756" valueTypeId="0e959224-eb5e-44c1-a3e5-1f7bc977fdef"/>
+    <listType typeId="dc617a0b-0e02-4e24-b42e-d71fd7e79c16" valueTypeId="5b81f777-c393-4d6a-adb9-886e68d8cce2"/>
+    <managerType typeId="db316463-8f96-414b-bd39-519c4b7f9791" valueTypeId="964705c6-fcc2-4890-a33f-1bb05820c71d"/>
+  </producedTypes>
+  <name>Лиды</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

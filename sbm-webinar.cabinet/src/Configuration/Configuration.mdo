@@ -42,10 +42,29 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ЛКК_ЛичныйКабинетКлиента</subsystems>
+  <styleItems>StyleItem.ТекстВторостепеннойНадписи</styleItems>
+  <styleItems>StyleItem.ЦветШрифтаНаименованияПоля</styleItems>
+  <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
+  <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
+  <styleItems>StyleItem.ФонУправляющегоПоля</styleItems>
+  <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
+  <styleItems>StyleItem.СветлыйСерый</styleItems>
+  <styleItems>StyleItem.ЦветГиперссылки</styleItems>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
   <commonPictures>CommonPicture.РазделCRM</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияФлаги</commonPictures>
+  <commonPictures>CommonPicture.Органайзер</commonPictures>
+  <commonPictures>CommonPicture.Набор</commonPictures>
+  <commonPictures>CommonPicture.СтатусыСерийНоменклатуры</commonPictures>
+  <commonPictures>CommonPicture.СостояниеОригиналаПервичногоДокументаОригиналНеПолучен</commonPictures>
+  <commonPictures>CommonPicture.ВвестиКупон</commonPictures>
+  <commonPictures>CommonPicture.ПодчиненныеЭлементы</commonPictures>
+  <commonPictures>CommonPicture.Наборы</commonPictures>
   <roles>Role.ЛКК_ОсновнаяРоль</roles>
   <commonModules>CommonModule.ЛКК_ОбменСЛичнымКабинетом</commonModules>
   <exchangePlans>ExchangePlan.ОбменУНФЛКК</exchangePlans>
+  <definedTypes>DefinedType.Вес</definedTypes>
+  <definedTypes>DefinedType.Объем</definedTypes>
   <constants>Constant.ЛКК_АдресЛичногоКабинета</constants>
   <constants>Constant.ЛКК_ВидЦены</constants>
   <constants>Constant.ЛКК_ИдентификаторСлужебногоПользователя</constants>
@@ -66,10 +85,40 @@
   <catalogs>Catalog.ЛКК_Организации</catalogs>
   <catalogs>Catalog.ЛКК_Представители</catalogs>
   <catalogs>Catalog.ЛКК_Номенклатура</catalogs>
+  <catalogs>Catalog.СерииНоменклатуры</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.ПричиныОтменыЗаказа</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.ПартииНоменклатуры</catalogs>
+  <catalogs>Catalog.ИсточникиПривлеченияПокупателей</catalogs>
+  <catalogs>Catalog.СтруктурныеЕдиницы</catalogs>
+  <catalogs>Catalog.СлужбыДоставки</catalogs>
+  <catalogs>Catalog.ПунктыВыдачиЗаказа</catalogs>
+  <catalogs>Catalog.РекламныеБлокиПечатныхФорм</catalogs>
+  <catalogs>Catalog.Проекты</catalogs>
+  <catalogs>Catalog.Лиды</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Спецификации</catalogs>
+  <catalogs>Catalog.СтраныМира</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.АвтоматическиеСкидки</catalogs>
+  <catalogs>Catalog.ЗоныТарифыДоставки</catalogs>
+  <catalogs>Catalog.КассыККМ</catalogs>
+  <catalogs>Catalog.Подписи</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
+  <documents>Document.Событие</documents>
   <enums>Enum.ВидыОперацийЗаказПокупателя</enums>
   <enums>Enum.ВидыСтавокНДС</enums>
   <enums>Enum.ТипыНалогообложенияНДС</enums>
+  <enums>Enum.ЛКК_СтатусыЗаказов</enums>
+  <enums>Enum.СпособыДоставки</enums>
+  <enums>Enum.ТипыДенежныхСредств</enums>
+  <enums>Enum.СервисыДоставки</enums>
+  <enums>Enum.ВариантыЗаполненияРасшифровкиПлатежа</enums>
+  <enums>Enum.ТипыДокументовЭДО</enums>
+  <enums>Enum.ВариантыЗавершенияЗаказа</enums>
+  <enums>Enum.ДоступныеПечатныеФормыВыставлениеСчетов</enums>
+  <enums>Enum.СпособыЗачетаИРаспределенияПлатежей</enums>
   <dataProcessors>DataProcessor.ЛКК_НастройкиОбмена</dataProcessors>
   <informationRegisters>InformationRegister.ЛКК_ВыгруженнаяНоменклатура</informationRegisters>
   <informationRegisters>InformationRegister.ЛКК_ВыгруженныеКонтактныеЛица</informationRegisters>
@@ -77,4 +126,5 @@
   <informationRegisters>InformationRegister.ЛКК_ЗагруженныеЗаказы</informationRegisters>
   <informationRegisters>InformationRegister.СвязиКонтрагентКонтакт</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.ЛКК_СтатусыЗаказов</informationRegisters>
 </mdclass:Configuration>

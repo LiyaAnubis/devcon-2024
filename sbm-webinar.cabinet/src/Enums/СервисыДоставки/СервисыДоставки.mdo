@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="84601b64-ec78-48e5-97cb-c3eb3e2863b7" extendedConfigurationObject="3c9b8c09-5ae3-477f-8554-c8db219fdda0">
+  <producedTypes>
+    <refType typeId="b3307cf9-38ce-4180-9220-3bdca4478833" valueTypeId="23e4a0cf-7903-43a5-907b-900e9a4be0b5"/>
+    <listType typeId="e57f536e-19ad-451d-85aa-c4f0e2fdb72c" valueTypeId="b014a473-0d9d-46d1-8e35-1bbdec1a21cb"/>
+    <managerType typeId="caf41654-501c-4df7-a644-fc40af20de95" valueTypeId="48a6953a-fde3-4226-af20-f23c41460762"/>
+  </producedTypes>
+  <name>СервисыДоставки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="2b735022-d6de-4961-95ad-e98a08c1a3e4" extendedConfigurationObject="022be48a-ab8c-4787-ab19-39cada14b8a6">
+    <name>Сервис1СКурьерика</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="a10ff7fe-e8c5-4453-9cb0-34ecc4567757" extendedConfigurationObject="e4d40c81-fc6e-46c5-8cc4-c9834544a182">
+    <name>Сервис1СДоставка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="6cadab99-6261-48ce-98c0-4eea855d81ac" extendedConfigurationObject="ad097391-3034-4980-adb5-ec53cc48b57f">
+    <name>ЯндексДоставка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="930f79b9-4952-4ddd-8db6-5ce17579cf01" extendedConfigurationObject="72f6b39f-5596-4cac-b583-c022533f6a53">
+    <name>Сервис1СКурьер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

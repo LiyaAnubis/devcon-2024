@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="062cfac3-a78d-4a2a-bf49-29c651168063" extendedConfigurationObject="619b38a5-86f8-4cd4-8c33-5cccf63e7f21">
+  <producedTypes>
+    <refType typeId="05265cff-c105-4f0c-8b9d-e4e56d56a83a" valueTypeId="2ff73cef-006b-42b3-ab85-308a3614df7f"/>
+    <listType typeId="f30409e2-f59a-41ba-9540-5534b3eb6a36" valueTypeId="ba00d197-3c83-46fb-ba20-39e4ff199988"/>
+    <managerType typeId="a9be44a8-5724-4a72-aea5-48c8b94e9ea9" valueTypeId="46b7be76-b921-42f5-b012-a9b84e5504f0"/>
+  </producedTypes>
+  <name>ТипыДокументовЭДО</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="342d7a5a-d981-4d35-95fc-e7903e08dc65" extendedConfigurationObject="14bd5c0f-e760-4a3a-99da-7478589f22fe">
+    <name>ОтветНаЗаказ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="4fa56e6c-1d2d-4391-af70-3922bff77553" extendedConfigurationObject="f1b2c7d8-708b-4934-93e4-36b076cab23d">
+    <name>СчетНаОплату</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

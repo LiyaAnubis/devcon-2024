@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d110f49-3d7f-46da-ace9-5db3c51dc819">
+  <producedTypes>
+    <selectionType typeId="89f29456-7ae2-44d7-b8be-3c8a14eb7086" valueTypeId="b2df4f21-986d-46d8-8703-272fa37e3b17"/>
+    <listType typeId="a901cf5f-ab35-42d8-9bdf-136009312d42" valueTypeId="7c74e2cd-5871-4c8c-bc2b-131119d0c1d5"/>
+    <managerType typeId="a1ae1902-bb0d-451d-82c8-4f8cd5e056dc" valueTypeId="e6d4d4d9-047e-41e6-82a7-12cd46103003"/>
+    <recordSetType typeId="022c0f99-ef14-4f5e-88a7-7cfd189bc065" valueTypeId="ee70b332-054d-4939-bdc1-67041b70d0e8"/>
+    <recordKeyType typeId="28725ce3-0425-4be5-a6fd-45d498fef45e" valueTypeId="09d524b6-680b-4a09-a325-82e65bd3f6ae"/>
+    <recordType typeId="9c8cedca-685c-4038-84c1-9eeac60033bb" valueTypeId="e9fcbffa-a20b-48f5-b375-03ab8b7f4fb6"/>
+    <recordManagerType typeId="65ea35f2-f6a2-4a9b-a2fa-1ee2267f7716" valueTypeId="3361dadf-8c11-452c-a74c-6a04948c82db"/>
+  </producedTypes>
+  <name>ЛКК_СтатусыЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заказов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e09cfe0a-f254-4d79-b6fe-5c976d23a546">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЛКК_СтатусыЗаказов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2df67b86-8f8e-46a2-9ec2-65f1fd717d2e">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказПокупателя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

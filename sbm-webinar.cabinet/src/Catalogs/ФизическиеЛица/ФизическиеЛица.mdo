@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b7237c2d-4c62-4647-8e27-28628ca39ecc" extendedConfigurationObject="e362a3ee-cbd4-427e-ba1c-135d2ac64280">
+  <producedTypes>
+    <objectType typeId="1e947a42-fbc3-452b-b38a-a69fc870abef" valueTypeId="487a03ef-6ae4-42c2-83cb-15b6a94b69c8"/>
+    <refType typeId="beabdbab-8801-4eab-9d3e-1382a0502afc" valueTypeId="b2ce8ed4-8fb4-4786-ba52-d7ef10fff7b8"/>
+    <selectionType typeId="c39fb9a0-b928-4c93-9208-afea220e639e" valueTypeId="247d144e-948c-424c-ba13-76cb108e47cd"/>
+    <listType typeId="3a1cf2c3-51a5-49e3-8cbd-258f821602d5" valueTypeId="19936637-5923-4971-bfc3-80370670dc03"/>
+    <managerType typeId="eb6ca880-de76-4000-bd4a-578061c7863f" valueTypeId="69cf655a-98d2-41c9-a774-42f95508993e"/>
+  </producedTypes>
+  <name>ФизическиеЛица</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>
